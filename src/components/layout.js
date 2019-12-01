@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import { Link } from "@reach/router"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -34,11 +35,26 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
+        <main
+          style={{
+            marginBottom: "20px",
+          }}
+        >
+          {children}
+        </main>
+        <hr />
+        <footer
+          style={{
+            textAlign: "center",
+            fontSize: "18px",
+          }}
+        >
+          © {new Date().getFullYear()}, Hecho con
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a target="_blank" href="https://www.gatsbyjs.org">
+            Gatsby
+          </a>{" "}
+          por <Link to="/">Pedro Álvarez</Link>
         </footer>
       </div>
     </>
