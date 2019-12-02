@@ -20,12 +20,16 @@ const Acerca = () => (
       ></img>
     </div>
     <p>
-      Mi nombre es Pedro soy desarrollador web con más de 3 años de experiencia,
-      actualmente trabajo remotamente para una empresa de software.
+      Soy desarrollador web con más de 3 años de experiencia, actualmente
+      trabajo en remoto para una empresa de software.
     </p>
     <p>
       Tambien trabajo por contratos, si te interesa contactarme me puedes enviar
       un correo o DM por Twitter.
+    </p>
+    <p>
+      Te puedo ayudar con casi cualquier cosa relacionado a la web, ya sean
+      páginas o aplicaciones.
     </p>
     <p>Algunas de las tecnologias con las que trabajo:</p>
     <ul>

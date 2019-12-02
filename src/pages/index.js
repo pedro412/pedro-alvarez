@@ -30,9 +30,12 @@ const IndexPage = ({ data }) => {
               </a>
               <h3>{node.frontmatter.title}</h3>
               <p>{node.excerpt}</p>
-              <a href="#" className="btn btn-warning btn-block">
+              <Link
+                to={`/${node.fields.slug}`}
+                className="btn btn-warning btn-block"
+              >
                 LEER
-              </a>
+              </Link>
             </article>
           </section>
         ))}
@@ -63,6 +66,9 @@ export const query = graphql`
             }
           }
           excerpt
+          fields {
+            slug
+          }
         }
       }
     }
