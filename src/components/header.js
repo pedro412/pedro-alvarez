@@ -18,6 +18,11 @@ const Header = ({ siteTitle }) => (
           Proyectos
         </a>
       </li>
+      <li className="menu-item">
+        <Link className="menu-item-link" to="/acerca">
+          Acerca de
+        </Link>
+      </li>
     </ul>
   </nav>
 )

@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const Articulos = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Artículos" />
     <h1 className="text-center">Artículos 📚</h1>
     <hr></hr>
     <p>
