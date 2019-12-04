@@ -11,18 +11,16 @@ const IndexPage = ({ data }) => {
       <SEO title="Inicio" />
       <h1 className="text-center">Bienvenido 👋</h1>
       <hr></hr>
-      <p>
+      <p className="text-center">
         Hola, en este sitio encontraras artículos y tutoriales que escribo para
         ayudar a nuevos desarrolladores y a mi ya que me sirven para documentar
         lo que voy aprendiendo.
       </p>
       <div>
         <h2 className="text-center">Artículos 📚</h2>
-
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <section key={node.id} className="section-grid">
-            {console.log(node)}
-            <article className="list-article text-center">
+        <section className="section-grid">
+          {data.allMarkdownRemark.edges.map(({ node }) => (
+            <article key={node.id} className="list-article text-center">
               <a href="#">
                 <Img
                   fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
@@ -37,12 +35,11 @@ const IndexPage = ({ data }) => {
                 LEER
               </Link>
             </article>
-          </section>
-        ))}
+          ))}
+        </section>
       </div>
 
       <br></br>
-      <Link to="/articulos/">Go to page 2</Link>
     </Layout>
   )
 }

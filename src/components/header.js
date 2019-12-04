@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
       </li>
       <li className="menu-item">
         <Link className="menu-item-link" to="/acerca">
-          Acerca de
+          Acerca
         </Link>
       </li>
     </ul>
