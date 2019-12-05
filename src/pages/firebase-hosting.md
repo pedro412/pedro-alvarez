@@ -1,7 +1,7 @@
 ---
 title: "Firebase Hosting"
 date: "2019-12-01"
-featuredImage: "../images/firebase-hosting.jpg"
+featuredImage: "../images/firebase/firebase-hosting.jpg"
 ---
 
 <div class="alert alert-warning">
@@ -37,19 +37,19 @@ Sigue todo los pasos de registro, si ya tienes una cuenta de Gmail el proceso es
 
 una vez te hayas registrado con tu cuenta de Google o Gmail debes ir a la consola:
 
-{{< figure src="img/ir-a-la-consola.jpg" alt="ir a la consola" >}}
+![ir la consola](../images/firebase/ir-a-la-consola.jpg)
 
 Después nos dirigimos a crear un proyecto:
 
-{{< figure src="img/crear-un-proyecto.jpg" alt="crea un proyecto" >}}
+![crea un proyecto](../images/firebase/crear-un-proyecto.jpg)
 
 Creamos el proyecto:
 
-{{< figure src="img/crear-proyecto.jpg" alt="crea un proyecto" >}}
+![crear proyecto](../images/firebase/crear-proyecto.jpg)
 
 Una vez se cree el proyecto nos dirigimos a Visión general del Proyecto y el menú lateral izquierdo nos vamos a Desarrolla > Hosting
 
-{{< figure src="img/menu-lateral.jpg" alt="crea un proyecto" >}}
+![crear proyecto](../images/firebase/menu-lateral.jpg)
 
 ## Instalando Firebase Tools
 
@@ -76,14 +76,15 @@ C:\Users\pedro\Desktop\buginet.com
 
 y dentro de este directorio o carpeta creare un nuevo documento de texto:
 
-{{< figure src="img/creando-archivo-de-texto.jpg" alt="Crear index" >}}
+![crear index](../images/firebase/creando-archivo-de-texto.jpg)
 
 una vez creado el archivo le damos doble clic para abrir y escribimos lo siguiente:
 
 <div class="filename">
     <i class="fas fa-code warning"></i> index.html
 </div>
-{{< highlight html >}}
+<pre></pre>
+```html
 <html>
 <head>
     <title>Buginet</title>
@@ -92,7 +93,7 @@ una vez creado el archivo le damos doble clic para abrir y escribimos lo siguien
         <h1>Bienvenidos a buginet.com 👋</h1>
     </body>
 </html>
-{{< /highlight >}}
+```
 
 siguiente le damos en Archivo > Guardar Como y le ponemos como nombre index.html Ojo: es muy importante que le cambies la extension de .txt a .html:
 

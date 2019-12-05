@@ -8,7 +8,7 @@ import io from "../images/io.jpg"
 const Acerca = () => (
   <Layout>
     <SEO title="Acerca" />
-    <h1 className="text-center">Hola!</h1>
+    <h1 className="text-center">Hola 👨</h1>
     <hr />
     <div className="text-center">
       <img
@@ -20,16 +20,16 @@ const Acerca = () => (
       ></img>
     </div>
     <p>
-      Soy desarrollador web con más de 3 años de experiencia, actualmente
-      trabajo en remoto para una empresa de software.
+      Soy desarrollador web con más de 3 años de experiencia, actualmente tengo
+      un trabajo remoto para una empresa de software.
     </p>
     <p>
-      Tambien trabajo por contratos, si te interesa contactarme me puedes enviar
-      un correo o DM por Twitter.
+      Tambien trabajo como freelance y por proyectos, si te interesa contactarme
+      me puedes enviar un correo o DM por Twitter.
     </p>
     <p>
-      Te puedo ayudar con casi cualquier cosa relacionado a la web, ya sean
-      páginas o aplicaciones.
+      Te puedo ayudar con casi cualquier cosa relacionado al desarrollo web, ya
+      sean páginas o aplicaciones.
     </p>
     <p>Algunas de las tecnologias con las que trabajo:</p>
     <ul>
@@ -40,7 +40,9 @@ const Acerca = () => (
       <li>React</li>
     </ul>
     <p>Te invito a conocer mi portafolio de proyectos:</p>
-    <button className="btn btn-primary">PROYECTOS</button>
+    <Link to="/proyectos" className="btn btn-primary">
+      PROYECTOS
+    </Link>
   </Layout>
 )
 

@@ -1,7 +1,7 @@
 ---
 title: "Computación Cloud"
 date: "2019-12-03"
-featuredImage: "../images/cloud-computing.jpg"
+featuredImage: "../images/cloud-computing-1.jpg"
 ---
 
 ## Por que elegir la nube
