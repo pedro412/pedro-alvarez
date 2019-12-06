@@ -83,21 +83,21 @@ una vez creado el archivo le damos doble clic para abrir y escribimos lo siguien
 <div class="filename">
     <i class="fas fa-code warning"></i> index.html
 </div>
-<pre></pre>
-```html
+
+```html{numberLines: true}
 <html>
-<head>
+  <head>
     <title>Buginet</title>
-</head>
-    <body>
-        <h1>Bienvenidos a buginet.com 👋</h1>
-    </body>
+  </head>
+  <body>
+    <h1>Bienvenidos a buginet.com 👋</h1>
+  </body>
 </html>
 ```
 
 siguiente le damos en Archivo > Guardar Como y le ponemos como nombre index.html Ojo: es muy importante que le cambies la extension de .txt a .html:
 
-{{< figure src="img/guardar-como.jpg" alt="crear index" >}}
+![crear index](../images/firebase/guardar-como.jpg)
 
 Es posible que nos aparezca un mensaje de confirmación le damos que si estamos seguros, esto nos creara un archivo HTML muy básico que podemos subir a Firebase, si queremos estar seguro que esta todo Ok podemos abrir el archivo index.html que acabamos de crear este se debería abrir en nuestro navegador y veremos el mensaje que le pusimos.
 
@@ -116,19 +116,19 @@ Ya que tenemos algo para subir a Firebase Hosting y tenemos las herramienta de F
 <div class="filename">
     <i class="fas fa-terminal"></i> Terminal
 </div>
-{{< highlight terminal >}}
-    firebase login
-{{< /highlight >}}
+<div class="highlight">
+    <pre class="chroma">firebase login</pre>
+</div>
 
 nos preguntara si queremos enviar información anónima de uso, en mi caso pondré que si ya que esto les ayuda a mejorar su producto basta con poner y ó n:
 
-{{< figure src="img/firebase-login-1.jpg" alt="firebase login" >}}
+![firebase login](../images/firebase/firebase-login-1.jpg)
 
 una vez hayas completado esto nos abrirá una página en donde se nos pedirá que nos identifiquemos con nuestra cuenta de Google si ya estas identificado se no pedirá que demos permisos a Firebase le damos en "Permitir" para continuar.
 
 Si todo es correcto deberíamos de ver esto:
 
-{{< figure src="img/success-login.jpg" alt="firebase login" >}}
+![success login](../images/firebase/success-login.jpg)
 
 y en la consola debemos ver un mensaje de que todo fue correcto.
 
@@ -139,31 +139,31 @@ Ahora que estamos logeados con nuestra cuenta de firebase debemos inicializar el
 <div class="filename">
     <i class="fas fa-terminal"></i> Terminal
 </div>
-{{< highlight terminal >}}
-    firebase init
-{{< /highlight >}}
+<div class="highlight">
+    <pre class="chroma">firebase init</pre>
+</div>
 
 y nos manda lo siguiente:
 
-{{< figure src="img/firebase-init-1.jpg" alt="firebase init" >}}
+![firebase init](../images/firebase/firebase-init-1.jpg)
 
 le damos 'y' para continuar.
 
 Ahora nos preguntará que herramienta deseamos utilizar con este proyecto y en nuestro caso queremos usar <strong>Hosting</strong> entonces navegamos con las teclas de arriba y abajo y nos posicionamos en la opción de Hosting y presionamos la tecla 'Espacio' para seleccionar este debería poner un asterisco de seleccionado y ahora presionamos la tecla 'Enter' para continuar.
 
-{{< figure src="img/firebase-init-2.jpg" alt="firebase init" >}}
+![firebase init](../images/firebase/firebase-init-2.jpg)
 
 Si todo es correcto nos va a pedir que asociemos un proyecto y como ya hemos creado el proyecto anteriormente le vamos a asociar ese mismo presionando 'Enter' en la opción:
 
-{{< figure src="img/firebase-init-3.jpg" alt="firebase init" >}}
+![firebase init](../images/firebase/firebase-init-3.jpg)
 
 Ahora nos pregunta que directorio queremos usar para desplegar nuestra página y nos sugiere (public) así lo dejaremos solo damos 'Enter' seguido de esto nos pregunta si queremos reescribir nuestras rutas a index.html este paso no es necesario en nuestro caso ya que no tenemos un SPA o Single Page Application entonces seleccionamos que no escribiendo 'n' y damos 'Enter' nos debería de aparecer que todo fue correcto:
 
-{{< figure src="img/firebase-init-4.jpg" alt="firebase init" >}}
+![firebase init](../images/firebase/firebase-init-4.jpg)
 
 Si revisamos nuestro directorio deberíamos de ver varios archivos de firebase y una nueva carpeta llamada public en ella hay dos archivos HTML uno es index.html y el otro es 404.html ahora podemos borrar dentro de public ese archivo index.html y poner el nuestro copiándolo ahí o podemos copiar nuestro index.html y pegarlo en public reescribiendo el que esta actualmente.
 
-{{< figure src="img/public-1.jpg" alt="public" >}}
+![public](../images/firebase/public-1.jpg)
 
 ## Firebase Deploy
 
@@ -174,14 +174,14 @@ C:\Users\pedro\Desktop\buginet.com
 <div class="filename">
     <i class="fas fa-terminal"></i> Terminal
 </div>
-{{< highlight terminal >}}
-    firebase deploy
-{{< /highlight >}}
+<div class="highlight">
+    <pre class="chroma">firebase deploy</pre>
+</div>
 
-{{< figure src="img/firebase-deploy.jpg" alt="firebase deploy" >}}
+![firebase deploy](../images/firebase/firebase-deploy.jpg)
 
 Listo 🚀 ahora solo dirígete a la ruta que te proporciona en automático Hosting URL de firebase y deberás ver tu página
 
-{{< figure src="img/final.jpg" alt="firebase deploy" >}}
+![final step](../images/firebase/final.jpg)
 
 Felicidades 🎉 ya tienes tu primer sitio web en internet, ya solo falta que le agregues contenido interesante para que todos puedan ver lo que haces.
