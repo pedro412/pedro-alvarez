@@ -98,6 +98,11 @@ blockquote {
   text-decoration: none;
   color: #fff;
 }
+.menu-social {
+  position: absolute;
+  right: 10px;
+  top: 3px;
+}
 
 .navbar-logo {
   margin-left: 15px;
@@ -312,4 +317,40 @@ h4 {
 
 .chroma {
   margin: 20px 0;
+}
+
+@media only screen and (max-width: 962px) {
+  body {
+    font-size: 18px !important;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  .navbar {
+    display: block;
+    text-align: center;
+    height: 136px;
+  }
+  .navbar-logo {
+    padding-top: 13px;
+    margin: 0;
+  }
+  .menu {
+    padding-left: 0;
+  }
+  .menu-social {
+    display: block;
+    position: relative;
+  }
+  .section-grid {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+  }
+
+  .list-article {
+    max-width: 350px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
 }

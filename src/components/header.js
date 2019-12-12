@@ -25,14 +25,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </li>
     </ul>
-    <ul
-      style={{
-        position: "absolute",
-        right: "10px",
-        top: "0px",
-      }}
-      className="menu"
-    >
+    <ul className="menu menu-social">
       <li className="menu-item">
         <a
           className="menu-item-link"

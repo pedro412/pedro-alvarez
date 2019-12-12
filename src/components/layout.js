@@ -47,6 +47,7 @@ const Layout = ({ children }) => {
           style={{
             textAlign: "center",
             fontSize: "18px",
+            marginBottom: "20px",
           }}
         >
           © {new Date().getFullYear()}, Hecho con
