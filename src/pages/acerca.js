@@ -31,7 +31,7 @@ const Acerca = () => (
       Te puedo ayudar con casi cualquier cosa relacionado al desarrollo web, ya
       sean páginas o aplicaciones.
     </p>
-    <p>Algunas de las tecnologias con las que trabajo:</p>
+    <p>Algunas de las tecnologías con las que trabajo:</p>
     <ul>
       <li>JavaScript</li>
       <li>NodeJS</li>

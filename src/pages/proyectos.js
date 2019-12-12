@@ -29,7 +29,7 @@ const Proyectos = () => {
           <strong>4Punto3 Mezcal:</strong>
         </a>
         <br />
-        Esta es una página estatica de presentación hecha con HTML, CSS y
+        Esta es una página estática de presentación hecha con HTML, CSS y
         JavaScript.
       </div>
       <div className="mb-2">
@@ -37,15 +37,16 @@ const Proyectos = () => {
           <strong>Petgram:</strong>
         </a>
         <br />
-        Este proyecto lo realize con React y esta alojado en un servicio cloud
-        llamado Zeit Now
+        Este proyecto lo realizé con React y esta alojado en un servicio cloud
+        llamado NOW de ZEIT.
       </div>
       <div className="mb-2">
         <a href="https://pointlify.com/">
           <strong>Pointlify:</strong>
         </a>
         <br />
-        Aplicación de punto de venta hecha con Angular y Firebase como backend.
+        Aplicación de punto de venta hecha con Angular y Firebase como backend
+        usando OAuth and real time database Firestore.
       </div>
     </Layout>
   )

@@ -1,5 +1,5 @@
 ---
-title: "Bootcamps: La verdad"
+title: "Bootcamps"
 date: "2019-12-03"
 featuredImage: "../images/bootcamps.jpg"
 ---

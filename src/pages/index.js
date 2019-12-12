@@ -21,11 +21,11 @@ const IndexPage = ({ data }) => {
         <section className="section-grid">
           {data.allMarkdownRemark.edges.map(({ node }) => (
             <article key={node.id} className="list-article text-center">
-              <a href="#">
+              <Link to={`/${node.fields.slug}`}>
                 <Img
                   fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
                 />
-              </a>
+              </Link>
               <h3>{node.frontmatter.title}</h3>
               <p>{node.excerpt}</p>
               <Link

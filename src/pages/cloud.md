@@ -6,7 +6,7 @@ featuredImage: "../images/cloud-computing-1.jpg"
 
 ## Por que elegir la nube
 
-Hablando como desarrollador independiente osea que no hay una empresa détras de mi patrocinando mis proyectos cuando se trata de dinero es aún más primordial cuidarlo.
+Hablando como desarrollador independiente en donde no hay una empresa détras patrocinando los proyectos, cuando se trata de dinero es aún más importante optimizar costos ya que el dinero es limitado.
 
 Para eso existen los servicios cloud como <a target="_blank" href="https://firebase.com">Firebase</a> que nos ayudaran a llevar a cabo nuestra idea de aplicación o desarrollo que tenemos sin ir a pedir dinero a nadie.
 
