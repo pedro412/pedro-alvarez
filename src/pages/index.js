@@ -8,16 +8,15 @@ import SEO from "../components/seo"
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <SEO title="Inicio" />
-      <h1 className="text-center">Bienvenido 👋</h1>
+      <SEO title="Home" />
+      <h1 className="text-center">Welcome 👋</h1>
       <hr></hr>
       <p className="text-center">
-        Hola, en este sitio encontraras artículos y tutoriales que escribo para
-        ayudar a nuevos desarrolladores y a mi ya que me sirven para documentar
-        lo que voy aprendiendo.
+        Hello there, in this site you will find articles and tutorials that i
+        write so i can help other developers and myself.
       </p>
       <div>
-        <h2 className="text-center">Artículos 📚</h2>
+        <h2 className="text-center">Articles 📚</h2>
         <section className="section-grid">
           {data.allMarkdownRemark.edges.map(({ node }) => (
             <article key={node.id} className="list-article text-center">
@@ -32,7 +31,7 @@ const IndexPage = ({ data }) => {
                 to={`/${node.fields.slug}`}
                 className="btn btn-warning btn-block"
               >
-                LEER
+                READ
               </Link>
             </article>
           ))}

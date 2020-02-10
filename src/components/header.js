@@ -6,22 +6,22 @@ import { FaTwitter, FaGithub } from "react-icons/fa"
 const Header = ({ siteTitle }) => (
   <nav className="navbar">
     <div className="navbar-logo">
-      <Link to="/">Pedro Álvarez</Link>
+      <Link to="/">Pedro Alvarez</Link>
     </div>
     <ul className="menu">
       <li className="menu-item">
-        <Link className="menu-item-link" to="/articulos">
-          Artículos
+        <Link className="menu-item-link" to="/articles">
+          Articles
         </Link>
       </li>
       <li className="menu-item">
-        <Link className="menu-item-link" to="/proyectos">
-          Proyectos
+        <Link className="menu-item-link" to="/projects">
+          Projects
         </Link>
       </li>
       <li className="menu-item">
-        <Link className="menu-item-link" to="/acerca">
-          Acerca
+        <Link className="menu-item-link" to="/about">
+          About
         </Link>
       </li>
     </ul>

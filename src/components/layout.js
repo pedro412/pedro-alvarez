@@ -50,12 +50,12 @@ const Layout = ({ children }) => {
             marginBottom: "20px",
           }}
         >
-          © {new Date().getFullYear()}, Hecho con
+          © {new Date().getFullYear()}, built with
           {` `}
           <a target="_blank" href="https://www.gatsbyjs.org">
             Gatsby
           </a>{" "}
-          por <Link to="/">Pedro Álvarez</Link>
+          by <Link to="/">Pedro Álvarez</Link>
         </footer>
       </div>
     </>
